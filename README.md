@@ -8,17 +8,17 @@ Method 1:
 2. Select Manage your Google Account
 3. Click on Security (left side)
 4. Turn on the Less Secure App
-![alt text](http://images/gmail_less_secure_app.png)
+   ![alt text](http://images/gmail_less_secure_app.png)
 
 Method 2:
 1. Select the google account
 2. Select Manage your Google Account
 3. Click on Security (left side)
 4. Turn On the 2-step verification
-![alt text](http://images/gmail_2_step_verification.png)
+   ![alt text](http://images/gmail_2_step_verification.png)
 5. After that App password will visible
 6. Click on App Password
-![alt text](http://images/app_password.png)
+   ![alt text](http://images/app_password.png)
 7. Create an App password and use that 16 character long text as gmail password for sending email
 
 1. Add the below settings in settings.py in the project folder
