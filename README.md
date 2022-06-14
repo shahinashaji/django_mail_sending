@@ -8,7 +8,7 @@ Method 1:
 2. Select Manage your Google Account
 3. Click on Security (left side)
 4. Turn on the Less Secure App
-   ![alt text](http://images/gmail_less_secure_app.png)
+   ![alt text](images/gmail_less_secure_app.png)
 
 Method 2:
 1. Select the google account
