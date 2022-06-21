@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send An Email</title>
+    <style>
+        span
+        {
+            font-weight: 500;
+            font-size: x-large;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" url="{% url 'send_email' %}">{% csrf_token %}
+        <table>
+            <tr><td>
+                <span>Send A New Email</span>
+            </td></tr>
+            <tr>
+                <td>Subject</td>
+                <td><input type="text" name="subject" required></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea name="message" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Receiver Email</td>
+                <td><input type="email" name="receiver_mail" required></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit"></td>
+            </tr>
+            <tr>
+                {% if status %}
+                <td>Email Sent Successfully</td>
+                {% endif %}
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
